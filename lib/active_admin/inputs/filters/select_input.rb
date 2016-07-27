@@ -32,7 +32,7 @@ module ActiveAdmin
         # Would normally return true for has_many and HABTM, which would subsequently
         # cause the select field to be multi-select instead of a dropdown.
         def multiple_by_association?
-          false
+          true
         end
 
         # Provides an efficient default lookup query if the attribute is a DB column.
